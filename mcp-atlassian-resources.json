@@ -1,0 +1,68 @@
+{
+  "confluence": {
+    "spaces": [
+      {
+        "key": "TEAM",
+        "name": "Team Space",
+        "type": "global",
+        "url": "atlassian://confluence/space/TEAM"
+      },
+      {
+        "key": "DOCS",
+        "name": "Documentation",
+        "type": "global",
+        "url": "atlassian://confluence/space/DOCS"
+      }
+    ],
+    "pages": [
+      {
+        "id": "123456",
+        "title": "Project Documentation",
+        "space_key": "TEAM",
+        "url": "atlassian://confluence/page/123456"
+      },
+      {
+        "id": "234567",
+        "title": "API Reference",
+        "space_key": "DOCS",
+        "url": "atlassian://confluence/page/234567"
+      }
+    ]
+  },
+  "jira": {
+    "projects": [
+      {
+        "key": "PROJ",
+        "name": "My Project",
+        "type": "software",
+        "url": "atlassian://jira/project/PROJ"
+      },
+      {
+        "key": "TEST",
+        "name": "Test Project",
+        "type": "software",
+        "url": "atlassian://jira/project/TEST"
+      }
+    ],
+    "issues": [
+      {
+        "key": "PROJ-123",
+        "summary": "Implement MCP integration",
+        "status": "In Progress",
+        "project_key": "PROJ",
+        "url": "atlassian://jira/issue/PROJ-123"
+      },
+      {
+        "key": "PROJ-124",
+        "summary": "Update documentation",
+        "status": "To Do",
+        "project_key": "PROJ",
+        "url": "atlassian://jira/issue/PROJ-124"
+      }
+    ]
+  },
+  "metadata": {
+    "timestamp": "2025-10-08T13:23:12.633898",
+    "base_url": "Not configured"
+  }
+}
